@@ -1,0 +1,85 @@
+/* about start */
+#about {
+  margin-bottom: 160px;
+}
+.about-center{
+    margin-bottom: 54px;
+}
+.about-img {
+  max-width: 162px;
+  height: 179px;
+}
+.about-title {
+  color: #1e1d1d;
+  font-family: "Inter700";
+  font-size: 24px;
+}
+.about-text {
+  max-width: 255px;
+  color: #8b8e99;
+  font-family: "Inter500";
+  font-size: 16px;
+}
+.team-card {
+  max-width: 540px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 22px;
+  gap: 30px;
+}
+.about-right {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#team-carousel {
+  position: relative;
+}
+
+#team-carousel :is(.owl-prev, .owl-next) {
+  position: absolute;
+  top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px 5px #3858d6;
+  top: 130px;
+}
+
+#team-carousel .owl-prev {
+  left: -25px;
+}
+
+#team-carousel .owl-next {
+  right: -25px;
+}
+
+#team-carousel .owl-dot span {
+  width: 20px;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
+}
+
+#team-carousel .owl-dot.active span {
+  width: 20px;
+  background: #3858d6;
+}
+@media(max-width: 500px){
+    .team-card{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        text-align: center;
+    }
+    .stars{
+        margin: auto;
+    }
+}

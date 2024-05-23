@@ -1,0 +1,32 @@
+
+.dark #navbar.navbar-shrink {
+  box-shadow: 0px 0px 5px 2px white;
+}
+.dark .header {
+  background: #000;
+}
+.dark .main {
+  background-color: var(--black);
+}
+.dark h2 {
+  color: #fff;
+}
+.dark .enebled-sum {
+  color: aqua;
+}
+.dark .adv {
+  border-top: 1px solid #fff;
+}
+.dark #team-carousel :is(.owl-prev, .owl-next) {
+    background: #fff;
+}
+.dark #team-carousel .owl-dot span {
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 3px #3858d6;
+}
+.dark #team-carousel .owl-dot.active span {
+  background: #000;
+}
+.dark #backtop{
+    box-shadow: 0px 0px 5px 5px white;
+}

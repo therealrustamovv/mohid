@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Poppins700";
+    src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "Poppins600";
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Poppins500";
+    src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "Inter700";
+    src: url(../fonts/Inter/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: "Inter500";
+    src: url(../fonts/Inter/Inter-Regular.ttf);
+}
